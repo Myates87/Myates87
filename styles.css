@@ -1,0 +1,341 @@
+
+/**{
+  border: solid 1px black;
+}
+*/
+html, body, div, nav{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+p, h1, h2, h3, h4, h5, h6, li{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+  margin: 14px;
+  font-size: 1.1rem;
+}
+
+.center-parent{
+  text-align: center;
+}
+
+.heading-box{
+  background-color: #a24;
+  width: 100%;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.logo {
+  width: 10%;
+  border: none;
+  background-color: #fffeef;
+  border-radius: 50%;
+}
+
+.page-title{
+  color: white;
+  font-size: 100%;
+}
+
+.navigation-box{
+  width: 100%;
+  text-align: center;
+  margin: 14px 0px 14px 0px;
+}
+
+.nav-item-box{
+  display: inline-block;
+  width: 20%;
+}
+
+.nav-item{
+  color: #c24;
+  text-decoration-color: #5af;
+  transition: .3s;
+}
+
+.nav-item:hover {
+  color: #5af;
+  text-decoration-color: #c24;
+}
+
+.projects-dropdown{
+  text-align: center;
+  display: none;
+  padding: 2%;
+}
+
+.projects-item{
+  color: #c24;
+  text-decoration-color: #5af;
+  transition: .3s;
+}
+
+.projects-item:hover {
+  color: #5af;
+  text-decoration-color: #c24;
+}
+
+.projects:hover .projects-dropdown{
+  display: block;
+  z-index: 5;
+  color: blue;
+}
+
+.displaying{
+  display: none;
+}
+
+.hovering:hover .displaying{
+  display: block;
+}
+
+header{
+  max-width: 600px;
+}
+
+/*W3 Schools Code below*/
+
+.navbar {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #a24;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+
+.dropdown .dropbtn {
+  font-size: 16px;    
+  border: none;
+  outline: none;
+  color: #a24;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  transition: .3s;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #c24;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: .3s;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main-image{
+  width: 50%;
+  padding: 14px;
+}
+
+/*W3 Schools Code above*/
+
+
+.article-parent{
+  max-width: 450px;
+  height: 15em;
+  display: inline-block;
+  margin: 24px;
+  padding: 12px;
+  transition: .3s;
+}
+
+.article-parent:hover{
+  box-shadow: 1px 1px 1px #999;
+}
+
+.article-parent:hover .article-title{
+  background-color: #4cb;
+}
+
+.article-image{
+  width: 50%;
+  float: left;
+  margin-right: 24px;
+}
+
+.article-title{
+  padding: 12px;
+  background-color: #a24;
+  color: white;
+  font-size: 80%;
+  transition: .3s;
+}
+
+.article-preview{
+  color: #666;
+  font-size: 80%;
+}
+
+.article-parent  a{
+  text-decoration-color: #5af;
+  color: #a24;
+  font-size: 80%;
+}
+
+.article-parent a:visited{
+  text-decoration-color: #a24;
+  color: #5af;
+}
+
+footer{
+  background-color: #a24;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: inline-block;
+}
+
+.righteous-txt{
+  font-family: 'Righteous', cursive;
+}
+
+.footer-link-parent{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 50%;
+  border-right: solid thin #4cb;
+  float: left;
+}
+
+.footer-links{
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: .2s;
+  margin: 8px;
+  font-size: .7rem;
+}
+
+.footer-links:hover{
+  color: #fffeef;
+  text-decoration: underline;
+  text-decoration-color: #5af;
+}
+
+.social-link-parent{
+  text-align: center;
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+
+.social-image{
+  width: 30px;
+  margin: 8px;
+}
+
+
+/*Article page styles below*/
+
+.heading-article-image{
+  width: 30%;
+  border: none;
+  border-radius: 50%;
+}
+
+.materials-parent{
+  display: inline-block;
+}
+
+.materials-image{
+  padding: 14px 20px 14px 20px;
+  width: 50%;
+  max-width: 400px;
+}
+
+.material-list{
+  float: left;
+}
+
+.intro-image-box{
+  padding: 14px;
+  text-align: center;
+}
+
+.steps span{
+  color: #a24;
+  font-size: 120%;
+  text-decoration: underline;
+  text-decoration-color: #4cb;
+}
+
+.materials-parent ul p{
+  text-indent: unset;
+}
+
+.materials-parent li{
+  font-weight: inherit;
+}
+
+.wyn-txt{
+  font-size: 125%;
+
+}
+
+.step-image{
+  width: 40%;
+  padding-left: 14px;
+  padding-top: 14px;
+  transition: .3s;
+}
+
+.step-image:hover{
+  transform: scale(1.5);
+  z-index: 5;
+  padding: 0;
+}
+
+.ending-banner{
+  text-align: center;
+  width: 100%;
+}
+
+main{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
