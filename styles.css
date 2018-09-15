@@ -176,7 +176,6 @@ header{
 
 
 .article-parent{
-  max-width: 450px;
   height: 15em;
   display: inline-block;
   margin: 24px;
@@ -202,7 +201,7 @@ header{
   padding: 12px;
   background-color: #a24;
   color: white;
-  font-size: 80%;
+  font-size: 1rem;
   transition: .3s;
 }
 
